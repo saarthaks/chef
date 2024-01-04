@@ -1,0 +1,6 @@
+app/cookbook.json
+app/knowledge_bank.json
+app/pantry.db
+app/staged_meal_plan.json
+*.ipynb
+app/cookbook/*

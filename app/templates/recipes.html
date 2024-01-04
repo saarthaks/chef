@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipes</title>
+</head>
+<body>
+    <h1>Recipes</h1>
+    <ul>
+        {% for recipe in recipes %}
+        <li>
+            <strong>{{ recipe.name }}</strong> ({{ recipe.cooking_time }} mins)
+            <ul>
+                <li>Calories: {{ recipe.total_calories }}</li>
+                <li>Carbs: {{ recipe.grams_carbs }}g</li>
+                <li>Fat: {{ recipe.grams_fat }}g</li>
+                <li>Protein: {{ recipe.grams_protein }}g</li>
+                <li>Ingredients:
+                    <ul>
+                        {% for ingredient in recipe.ingredients %}
+                        <li>{{ ingredient.quantity }} {{ ingredient.unit }} {{ ingredient.name }}</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        {% else %}
+        <li>No recipes found.</li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('index') }}">Back to Home</a>
+</body>
+</html>

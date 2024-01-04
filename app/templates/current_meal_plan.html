@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Current Meal Plan</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        .expiring-soon {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Current Meal Plan</h1>
+    <a href="{{ url_for('index') }}">Back to Pantry</a>
+    {% if meal_plan %}
+    <div class="meal_plan">
+        <h3>Recipes:</h3>
+        <ul>
+            {% for recipe in meal_plan.recipes %}
+            <li>{{ recipe }}</li>
+            {% endfor %}
+        </ul>
+        {% if meal_plan.shopping_list and meal_plan.new_pantry %}
+        <div class="execution_data">
+            <button onclick="executeMealPlan()">Execute Plan</button>
+            <h3>Shopping List:</h3>
+            <ul>
+                {% for name, item in meal_plan.shopping_list.items() %}
+                <li>{{ name }} - {{ item.count }} x {{ item.increment.quantity }} {{ item.increment.unit }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Final Pantry State:</h3>
+            <ul>
+                {% for name, item in meal_plan.new_pantry.items() %}
+                {% set days_until_expiry = (item.expiry_date - now).days %}
+                <li class="{{ 'expiring-soon' if days_until_expiry <= 15 else '' }}">
+                    {{ "%.2f"|format(item.quantity) }} left of {{ name }}, expiring on {{ item.expiry_date.strftime('%m/%d/%Y') }}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+    
+    {% else %}
+    <p>No meal plan is currently staged.</p>
+    {% endif %}
+    <script>
+        // Function to execute the staged meal plan
+        function executeMealPlan() {
+            $.ajax({
+                url: "{{ url_for('execute_staged_plan') }}",
+                type: "POST",
+                success: function(response) {
+                    alert(response.message);
+                    if(response.success) {
+                        // Optionally redirect or update the page to reflect the changes
+                        window.location.reload(); // Simple way to refresh the page
+                    }
+                },
+                error: function(xhr) {
+                    alert("An error occurred while executing the meal plan.");
+                }
+            });
+        }
+    </script>
+</body>
+</html>

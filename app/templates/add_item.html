@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Pantry Item</title>
+</head>
+<body>
+    <h2>Add Item to Pantry</h2>
+    <form method="post">
+        Name: <input type="text" name="name" required><br>
+        Quantity: <input type="number" name="quantity" step="any" required><br>
+        Unit: <input type="text" name="unit"><br>
+        Expiry Date: <input type="date" name="expiry_date" id="expiry_date"><br>
+        <input type="checkbox" id="non_perishable" name="non_perishable" onchange="toggleExpiryDate()"> Non-Perishable<br>
+        <input type="submit" value="Add Item">
+    </form>
+
+    <script>
+        function toggleExpiryDate() {
+            // Get the checkbox and the expiry date input
+            var checkBox = document.getElementById("non_perishable");
+            var expiryDate = document.getElementById("expiry_date");
+
+            // If the checkbox is checked, disable the expiry date input
+            if (checkBox.checked == true){
+                expiryDate.disabled = true;
+                expiryDate.value = ''; // Clear any existing value
+            } else {
+                expiryDate.disabled = false;
+            }
+        }
+    </script>
+
+    <a href="{{ url_for('index') }}">Back to Pantry</a>
+</body>
+</html>

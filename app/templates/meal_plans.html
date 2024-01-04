@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meal Plans</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        .hidden {
+            display: none;
+        }
+        .expiring-soon {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Candidate Meal Plans</h1>
+    <a href="{{ url_for('index') }}">Back to Pantry</a>
+    <p><a href="{{ url_for('current_meal_plan') }}">View Current Meal Plan</a></p>
+    <div id="meal_plans">
+        {% for mp in meal_plans %}
+        <div class="meal_plan" id="plan_{{ loop.index0 }}">
+            <h2>Meal Plan {{ loop.index }} (Cost: {{ mp.cost }})</h2>
+            <h3>Recipes:</h3>
+            <ul>
+                {% for recipe in mp.recipes %}
+                <li>{{ recipe }}</li>
+                {% endfor %}
+            </ul>
+            <button onclick="toggleDetails('details_{{ loop.index0 }}')">View Details</button>
+            <button onclick="stageMealPlan({{ mp.recipes }})">Stage This Plan</button>
+            <div class="plan_details hidden" id="details_{{ loop.index0 }}">
+                <h3>Shopping List:</h3>
+                <ul>
+                    {% for name, item in mp.shopping_list.items() %}
+                    <li>{{ name }} - {{ item.count }} x {{ item.increment.quantity }} {{ item.increment.unit }}</li>
+                    {% endfor %}
+                </ul>
+                <h3>Final Pantry State:</h3>
+                <ul>
+                    {% for name, item in mp.new_pantry.items() %}
+                    {% set days_until_expiry = (item.expiry_date - now).days %}
+                    <li class="{{ 'expiring-soon' if days_until_expiry <= 15 else '' }}">
+                        {{ "%.2f"|format(item.quantity) }} left of {{ name }}, expiring on {{ item.expiry_date.strftime('%m/%d/%Y') }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        {% else %}
+        <p>No meal plans found.</p>
+        {% endfor %}
+    </div>
+    <script>
+        // Function to toggle the visibility of meal plan details
+        function toggleDetails(detailsId) {
+            var detailsDiv = document.getElementById(detailsId);
+            if (detailsDiv) {
+                detailsDiv.classList.toggle('hidden');
+            }
+        }
+        function stageMealPlan(recipeNames) {
+            $.ajax({
+                url: "{{ url_for('stage_meal_plan') }}",
+                type: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ 'recipeNames': recipeNames }),
+                dataType: "json",
+                success: function(response) {
+                    alert("Meal Plan Staged Successfully!");
+                    window.location.href = "{{ url_for('index') }}"
+                    // Optional: redirect or update the page to show the staged plan
+                },
+                error: function(xhr) {
+                    // Handle error
+                    alert("An error occurred while staging the meal plan.");
+                }
+            });
+        }
+    </script>
+</body>
+</html>

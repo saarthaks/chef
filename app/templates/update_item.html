@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Pantry Item</title>
+</head>
+<body>
+    <h2>Update Item</h2>
+    <form method="post">
+        Name: <input type="text" name="name" value="{{ item.name }}" required><br>
+        Quantity: <input type="number" name="quantity" value="{{ item.quantity }}" step="any" required><br>
+        Unit: <input type="text" name="unit" value="{{ item.unit }}"><br>
+        Expiry Date: 
+        {% if item.expiry_date %}
+        <input type="date" name="expiry_date" value="{{ item.expiry_date.strftime('%Y-%m-%d') }}">
+        {% else %}
+            <input type="date" name="expiry_date">
+        {% endif %}
+        <br>
+        <input type="submit" value="Update Item">
+    </form>
+    <a href="{{ url_for('index') }}">Back to Pantry</a>
+</body>
+</html>

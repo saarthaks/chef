@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Pantry</title>
+    <!-- Add any additional head elements here (e.g., CSS links) -->
+</head>
+<body>
+    <h1>Welcome to Your Digital Pantry</h1>
+
+    <h2>Pantry Items</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Unit</th>
+            <th>Expiry Date</th>
+            <th>Actions</th>
+        </tr>
+        {% for item in items %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ "%.3f"|format(item.quantity) }}</td>
+            <td>{{ item.unit }}</td>
+            <td>{{ item.expiry_date.strftime('%Y-%m-%d') if item.expiry_date else 'N/A' }}</td>
+            <td>
+                <!-- Link to the update route for each item -->
+                <a href="{{ url_for('update_item', item_id=item.id) }}">Update</a>
+                <form action="{{ url_for('remove_item', item_id=item.id) }}" method="post" style="display: inline;">
+                    <button type="submit">Remove</button>
+                </form>
+            </td>
+        </tr>
+        {% else %}
+        <tr>
+            <td colspan="5">No items found in the pantry.</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <!-- Link to the add new item page -->
+    <p><a href="{{ url_for('add_item') }}">Add New Item</a></p>
+    <p><a href="{{ url_for('show_recipes') }}">View Recipes</a></p>
+    <p><a href="{{ url_for('show_meal_plans') }}">View Meal Plans</a></p>
+    <p><a href="{{ url_for('current_meal_plan') }}">View Current Meal Plan</a></p>
+</body>
+</html>
