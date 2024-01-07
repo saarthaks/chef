@@ -1,0 +1,1442 @@
+[
+    {
+        "name": "One-Pan Pineapple Salsa Pork Tacos",
+        "cooking_time": 40,
+        "total_calories": 770,
+        "grams_carbs": 74.0,
+        "grams_fat": 39.0,
+        "grams_protein": 32.0,
+        "ingredients": [
+            {
+                "quantity": 4.0,
+                "unit": "oz",
+                "name": "pineapple"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "yellow onion"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "cilantro"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lime"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground pork"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "bbq sauce"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "unit",
+                "name": "tortilla"
+            }
+        ]
+    },
+    {
+        "name": "One-Pot Cowboy Turkey and Bean Chili",
+        "cooking_time": 40,
+        "total_calories": 670,
+        "grams_carbs": 70.0,
+        "grams_fat": 23.0,
+        "grams_protein": 43.0,
+        "ingredients": [
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "jalapeno"
+            },
+            {
+                "quantity": 16.0,
+                "unit": "oz",
+                "name": "crushed tomato"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground turkey"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tsp",
+                "name": "chicken stock concentrate"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "oz",
+                "name": "tomato paste"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "bbq sauce"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 13.0,
+                "unit": "oz",
+                "name": "black beans"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "cream cheese"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "paprika"
+            }
+        ]
+    },
+    {
+        "name": "Moo Shu Pork Bowl",
+        "cooking_time": 25,
+        "total_calories": 760,
+        "grams_carbs": 81.0,
+        "grams_fat": 29.0,
+        "grams_protein": 35.0,
+        "ingredients": [
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lime"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground pork"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "oz",
+                "name": "red cabbage"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "hoisin sauce"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "oz",
+                "name": "sweet thai chili sauce"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "sweet soy glaze"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "rice"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Chili Beef and Green Bean Bowl",
+        "cooking_time": 25,
+        "total_calories": 990,
+        "grams_carbs": 95.0,
+        "grams_fat": 50.0,
+        "grams_protein": 31.0,
+        "ingredients": [
+            {
+                "quantity": 0.75,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "green beans"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lime"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "cilantro"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground beef"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "sweet soy glaze"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "oz",
+                "name": "sweet thai chili sauce"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "fried onions"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "tortilla"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "cheddar cheese"
+            }
+        ]
+    },
+    {
+        "name": "Hoisin-Glazed Chicken",
+        "cooking_time": 40,
+        "total_calories": 680,
+        "grams_carbs": 60.0,
+        "grams_fat": 32.0,
+        "grams_protein": 38.0,
+        "ingredients": [
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "green beans"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "hoisin sauce"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "mayonnaise"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "sriracha"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "ml",
+                "name": "ponzu sauce"
+            }
+        ]
+    },
+    {
+        "name": "Spicy Pulled Pork and Green Pepper Wrap",
+        "cooking_time": 15,
+        "total_calories": 670,
+        "grams_carbs": 42.0,
+        "grams_fat": 38.0,
+        "grams_protein": 32.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "yogurt"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "hot sauce"
+            },
+            {
+                "quantity": 8.0,
+                "unit": "oz",
+                "name": "ground pork"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "tortilla"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "cheddar cheese"
+            }
+        ]
+    },
+    {
+        "name": "Penne with Beef and Zucchini Ragu",
+        "cooking_time": 35,
+        "total_calories": 950,
+        "grams_carbs": 83.0,
+        "grams_fat": 49.0,
+        "grams_protein": 43.0,
+        "ingredients": [
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "penne pasta"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "shallot"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "zucchini"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground beef"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "italian spice blend"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "oz",
+                "name": "tomato paste"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "cream cheese"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "beef stock concentrate"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "parmesan cheese"
+            }
+        ]
+    },
+    {
+        "name": "Tilapia with Almond-Parsley Gremolata",
+        "cooking_time": 40,
+        "total_calories": 680,
+        "grams_carbs": 44.0,
+        "grams_fat": 40.0,
+        "grams_protein": 38.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "parsley"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "broccoli"
+            },
+            {
+                "quantity": 11.0,
+                "unit": "oz",
+                "name": "tilapia"
+            },
+            {
+                "quantity": 0.33,
+                "unit": "tbsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 0.33,
+                "unit": "tbsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 0.33,
+                "unit": "tbsp",
+                "name": "onion powder"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "oz",
+                "name": "couscous"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "oz",
+                "name": "almonds"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "chili flakes"
+            }
+        ]
+    },
+    {
+        "name": "Pork Sausage and Pepper Flatbreads",
+        "cooking_time": 35,
+        "total_calories": 910,
+        "grams_carbs": 71.0,
+        "grams_fat": 57.0,
+        "grams_protein": 40.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "yellow onion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 9.0,
+                "unit": "oz",
+                "name": "italian sausage"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "oz",
+                "name": "tomato paste"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "flatbread"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "mozzarella cheese"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "cup",
+                "name": "monterey jack cheese"
+            }
+        ]
+    },
+    {
+        "name": "Saucy Chicken Burrito Bowl",
+        "cooking_time": 35,
+        "total_calories": 580,
+        "grams_carbs": 60.0,
+        "grams_fat": 24.0,
+        "grams_protein": 34.0,
+        "ingredients": [
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "tomato"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "red onion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lime"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "cilantro"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "cream cheese"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "bbq sauce"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            }
+        ]
+    },
+    {
+        "name": "Chicken Sausage and Tomato Flatbread",
+        "cooking_time": 35,
+        "total_calories": 790,
+        "grams_carbs": 77.0,
+        "grams_fat": 37.0,
+        "grams_protein": 38.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "zucchini"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "oz",
+                "name": "grape tomato"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "oz",
+                "name": "ricotta cheese"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "flatbread"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "parsley"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "chili flakes"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tsp",
+                "name": "honey"
+            },
+            {
+                "quantity": 9.0,
+                "unit": "oz",
+                "name": "italian sausage"
+            }
+        ]
+    },
+    {
+        "name": "Turkey Ragu Spaghetti",
+        "cooking_time": 25,
+        "total_calories": 800,
+        "grams_carbs": 82.0,
+        "grams_fat": 31.0,
+        "grams_protein": 46.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "zucchini"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "spaghetti"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground turkey"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "tsp",
+                "name": "chili flakes"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "tomato paste"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "italian spice blend"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "chicken stock concentrate"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "cream cheese"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "tbsp",
+                "name": "sour cream"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "parmesan cheese"
+            }
+        ]
+    },
+    {
+        "name": "Crispy Parmesan Chicken",
+        "cooking_time": 50,
+        "total_calories": 640,
+        "grams_carbs": 48.0,
+        "grams_fat": 32.0,
+        "grams_protein": 44.0,
+        "ingredients": [
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "broccoli"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "cup",
+                "name": "panko breadcrumbs"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "parmesan cheese"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "tbsp",
+                "name": "sour cream"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "oz",
+                "name": "couscous"
+            }
+        ]
+    },
+    {
+        "name": "Hoisin-Glazed Chicken",
+        "cooking_time": 40,
+        "total_calories": 680,
+        "grams_carbs": 59.0,
+        "grams_fat": 32.0,
+        "grams_protein": 39.0,
+        "ingredients": [
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "broccoli"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "hoisin sauce"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "mayonnaise"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "sriracha"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "ml",
+                "name": "ponzu sauce"
+            }
+        ]
+    },
+    {
+        "name": "Beefy Italian Stuffed Pepper Soup",
+        "cooking_time": 35,
+        "total_calories": 720,
+        "grams_carbs": 51.0,
+        "grams_fat": 41.0,
+        "grams_protein": 38.0,
+        "ingredients": [
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground beef"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "yellow onion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "tomato"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "oz",
+                "name": "tomato paste"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tsp",
+                "name": "italian spice blend"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "tsp",
+                "name": "chili flakes"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tsp",
+                "name": "chicken stock concentrate"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "oz",
+                "name": "couscous"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "mozzarella cheese"
+            }
+        ]
+    },
+    {
+        "name": "Sweet Chili Beef and Broccoli Bowl",
+        "cooking_time": 25,
+        "total_calories": 990,
+        "grams_carbs": 94.0,
+        "grams_fat": 50.0,
+        "grams_protein": 32.0,
+        "ingredients": [
+            {
+                "quantity": 0.75,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "broccoli"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lime"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "cilantro"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground beef"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "sweet soy glaze"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "oz",
+                "name": "sweet thai chili sauce"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "fried onions"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "tortilla"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "cheddar cheese"
+            }
+        ]
+    },
+    {
+        "name": "Crispy Parmesan Chicken",
+        "cooking_time": 50,
+        "total_calories": 690,
+        "grams_carbs": 62.0,
+        "grams_fat": 32.0,
+        "grams_protein": 44.0,
+        "ingredients": [
+            {
+                "quantity": 12.0,
+                "unit": "oz",
+                "name": "carrots"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "cup",
+                "name": "panko breadcrumbs"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "parmesan cheese"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "tbsp",
+                "name": "sour cream"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "oz",
+                "name": "couscous"
+            }
+        ]
+    },
+    {
+        "name": "Garlicky Shrimp Couscous Bowl",
+        "cooking_time": 35,
+        "total_calories": 490,
+        "grams_carbs": 45.0,
+        "grams_fat": 20.0,
+        "grams_protein": 26.0,
+        "ingredients": [
+            {
+                "quantity": 8.0,
+                "unit": "oz",
+                "name": "broccoli"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "parsley"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "chili flakes"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "veggie stock concentrate"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "shrimp"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            }
+        ]
+    },
+    {
+        "name": "Cajun Blackened Tilapia",
+        "cooking_time": 45,
+        "total_calories": 820,
+        "grams_carbs": 92.0,
+        "grams_fat": 28.0,
+        "grams_protein": 44.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 13.0,
+                "unit": "oz",
+                "name": "kidney beans"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "veggie stock concentrate"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 11.0,
+                "unit": "oz",
+                "name": "tilapia"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "blackening spice"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "tbsp",
+                "name": "sour cream"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "hot sauce"
+            }
+        ]
+    },
+    {
+        "name": "Spicy Peruvian Chicken",
+        "cooking_time": 40,
+        "total_calories": 610,
+        "grams_carbs": 53.0,
+        "grams_fat": 28.0,
+        "grams_protein": 37.0,
+        "ingredients": [
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "jalepeno"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lime"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "tomato"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "chicken stock concentrate"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "rice"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "mayonnaise"
+            },
+            {
+                "quantity": 1.5,
+                "unit": "tbsp",
+                "name": "sour cream"
+            }
+        ]
+    },
+    {
+        "name": "One-Pan Cheesy Chicken Tortilla Melts",
+        "cooking_time": 25,
+        "total_calories": 730,
+        "grams_carbs": 40.0,
+        "grams_fat": 43.0,
+        "grams_protein": 41.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "tbsp",
+                "name": "sour cream"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "cream cheese"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tbsp",
+                "name": "hot sauce"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken thigh"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "beef stock concentrate"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "tortilla"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "cup",
+                "name": "cheddar cheese"
+            }
+        ]
+    },
+    {
+        "name": "Tilapia with Almond-Parsley Gremolata",
+        "cooking_time": 40,
+        "total_calories": 680,
+        "grams_carbs": 45.0,
+        "grams_fat": 40.0,
+        "grams_protein": 37.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "clove",
+                "name": "garlic"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "oz",
+                "name": "parsley"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "green beans"
+            },
+            {
+                "quantity": 11.0,
+                "unit": "oz",
+                "name": "tilapia"
+            },
+            {
+                "quantity": 0.33,
+                "unit": "tbsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 0.33,
+                "unit": "tbsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 0.33,
+                "unit": "tbsp",
+                "name": "onion powder"
+            },
+            {
+                "quantity": 2.5,
+                "unit": "oz",
+                "name": "couscous"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 0.5,
+                "unit": "oz",
+                "name": "almonds"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "chili flakes"
+            }
+        ]
+    },
+    {
+        "name": "Southwest Beef Cavatappi",
+        "cooking_time": 40,
+        "total_calories": 1070,
+        "grams_carbs": 84.0,
+        "grams_fat": 61.0,
+        "grams_protein": 45.0,
+        "ingredients": [
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "green pepper"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 6.0,
+                "unit": "oz",
+                "name": "cavatappi pasta"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "ground beef"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "taco seasoning"
+            },
+            {
+                "quantity": 3.0,
+                "unit": "oz",
+                "name": "tomato paste"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tsp",
+                "name": "beef stock concentrate"
+            },
+            {
+                "quantity": 5.5,
+                "unit": "tbsp",
+                "name": "sour cream"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "tsp",
+                "name": "paprika"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "cup",
+                "name": "monterey jack cheese"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "hot sauce"
+            },
+            {
+                "quantity": 0.25,
+                "unit": "cup",
+                "name": "cheddar cheese"
+            }
+        ]
+    },
+    {
+        "name": "Saucy Italian Chicken Wraps",
+        "cooking_time": 15,
+        "total_calories": 500,
+        "grams_carbs": 42.0,
+        "grams_fat": 22.0,
+        "grams_protein": 34.0,
+        "ingredients": [
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "scallion"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "tomato"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "unit",
+                "name": "lemon"
+            },
+            {
+                "quantity": 10.0,
+                "unit": "oz",
+                "name": "chicken breast"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tsp",
+                "name": "garlic powder"
+            },
+            {
+                "quantity": 1.0,
+                "unit": "tbsp",
+                "name": "italian spice blend"
+            },
+            {
+                "quantity": 4.0,
+                "unit": "tbsp",
+                "name": "cream cheese"
+            },
+            {
+                "quantity": 2.0,
+                "unit": "unit",
+                "name": "tortilla"
+            }
+        ]
+    }
+]

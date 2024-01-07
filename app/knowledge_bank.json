@@ -1,0 +1,492 @@
+{
+    "penne pasta": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "garlic powder": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "tortilla": {
+        "shelf_life": 12,
+        "increment": {
+            "quantity": 10,
+            "unit": "unit"
+        }
+    },
+    "cilantro": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "mayonnaise": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 20,
+            "unit": "oz"
+        }
+    },
+    "red onion": {
+        "shelf_life": 8,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "ground pork": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "cheddar cheese": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "shallot": {
+        "shelf_life": 8,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "carrots": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 2,
+            "unit": "lb"
+        }
+    },
+    "flatbread": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 2,
+            "unit": "unit"
+        }
+    },
+    "mozzarella cheese": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "lemon": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "ricotta cheese": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 15,
+            "unit": "oz"
+        }
+    },
+    "chili flakes": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "italian spice blend": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "almonds": {
+        "shelf_life": 26,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "ponzu sauce": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 10,
+            "unit": "oz"
+        }
+    },
+    "fajita spice blend": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 1,
+            "unit": "oz"
+        }
+    },
+    "grape tomato": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 10,
+            "unit": "oz"
+        }
+    },
+    "parmesan cheese": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 5,
+            "unit": "oz"
+        }
+    },
+    "zucchini": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "paprika": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "ground turkey": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "spaghetti": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "ground beef": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "tomato paste": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 6,
+            "unit": "oz"
+        }
+    },
+    "blackening spice": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "shrimp": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "monterey jack cheese": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "pineapple": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 4,
+            "unit": "oz"
+        }
+    },
+    "chicken breast": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 2,
+            "unit": "lb"
+        }
+    },
+    "black beans": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 15,
+            "unit": "oz"
+        }
+    },
+    "hoisin sauce": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 20,
+            "unit": "oz"
+        }
+    },
+    "tomato": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "taco seasoning": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 1,
+            "unit": "oz"
+        }
+    },
+    "sriracha": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "lime": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "green pepper": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "fried onions": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 6,
+            "unit": "oz"
+        }
+    },
+    "jalapeno": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "red cabbage": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "couscous": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "honey": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "broccoli": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 12,
+            "unit": "oz"
+        }
+    },
+    "cavatappi pasta": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "jalepeno": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    },
+    "green beans": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "tilapia": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "garlic": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 10,
+            "unit": "clove"
+        }
+    },
+    "chicken thigh": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 1,
+            "unit": "lb"
+        }
+    },
+    "hot sauce": {
+        "shelf_life": 26,
+        "increment": {
+            "quantity": 12,
+            "unit": "oz"
+        }
+    },
+    "beef stock concentrate": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "bbq sauce": {
+        "shelf_life": 26,
+        "increment": {
+            "quantity": 18,
+            "unit": "oz"
+        }
+    },
+    "chicken stock concentrate": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "kidney beans": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 15,
+            "unit": "oz"
+        }
+    },
+    "italian sausage": {
+        "shelf_life": 4,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "veggie stock concentrate": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "parsley": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "cream cheese": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "scallion": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 6,
+            "unit": "unit"
+        }
+    },
+    "sweet soy glaze": {
+        "shelf_life": 26,
+        "increment": {
+            "quantity": 12,
+            "unit": "oz"
+        }
+    },
+    "sweet thai chili sauce": {
+        "shelf_life": 26,
+        "increment": {
+            "quantity": 10,
+            "unit": "oz"
+        }
+    },
+    "sour cream": {
+        "shelf_life": 3,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "onion powder": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 3,
+            "unit": "oz"
+        }
+    },
+    "yogurt": {
+        "shelf_life": 2,
+        "increment": {
+            "quantity": 5,
+            "unit": "oz"
+        }
+    },
+    "panko breadcrumbs": {
+        "shelf_life": 26,
+        "increment": {
+            "quantity": 8,
+            "unit": "oz"
+        }
+    },
+    "crushed tomato": {
+        "shelf_life": 1,
+        "increment": {
+            "quantity": 16,
+            "unit": "oz"
+        }
+    },
+    "rice": {
+        "shelf_life": 52,
+        "increment": {
+            "quantity": 32,
+            "unit": "oz"
+        }
+    },
+    "yellow onion": {
+        "shelf_life": 8,
+        "increment": {
+            "quantity": 1,
+            "unit": "unit"
+        }
+    }
+}
