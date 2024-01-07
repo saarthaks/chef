@@ -152,24 +152,23 @@ def generate_meal_plan(all_recipes, digital_pantry, knowledge_bank, iterations, 
 
     all_recipe_dict = {recipe['name']: recipe for recipe in all_recipes}
 
-    current_plan = random.sample(all_recipes, num_meals)[:]
-    current_shopping_list, current_pantry = generate_shopping_list(current_plan, digital_pantry, knowledge_bank)
+    # current_plan = random.sample(all_recipes, num_meals)[:]
+    current_plan = random.sample(range(all_recipes), num_meals)[:]
+    current_shopping_list, current_pantry = generate_shopping_list([all_recipes[i] for i in current_plan], digital_pantry, knowledge_bank)
     current_cost = calculate_cost(digital_pantry, current_pantry, wastage_weight, pantry_change_weight)
 
     for _ in range(iterations):
         # the following swap does not allow repeats
         new_plan = current_plan[:]
         idx = random.randint(0, 5)
-        all_recipes_copy = copy.deepcopy(all_recipe_dict)
-        for item in new_plan:
-            del all_recipes_copy[item['name']]
+        all_recipes_copy = set(range(len(all_recipes))).difference(set(new_plan))
 
-        new_plan[idx] = random.choice(list(all_recipes_copy.values()))
+        new_plan[idx] = random.choice(list(all_recipes_copy))
 
         # the following swap allows repeats
         # new_plan = current_plan[:]
         # new_plan[random.randint(0, num_meals-1)] = random.choice(all_recipes)
-        new_shopping_list, new_pantry = generate_shopping_list(new_plan, digital_pantry, knowledge_bank)
+        new_shopping_list, new_pantry = generate_shopping_list([all_recipes[i] for i in new_plan], digital_pantry, knowledge_bank)
 
         new_cost = calculate_cost(digital_pantry, new_pantry, wastage_weight, pantry_change_weight)
 
@@ -181,4 +180,4 @@ def generate_meal_plan(all_recipes, digital_pantry, knowledge_bank, iterations, 
             current_pantry = new_pantry
 
     current_pantry = prune_pantry(current_pantry)
-    return current_plan, round(current_cost,1), current_shopping_list, current_pantry
+    return [all_recipes[i] for i in current_plan], round(current_cost,1), current_shopping_list, current_pantry
