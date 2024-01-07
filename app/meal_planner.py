@@ -153,7 +153,7 @@ def generate_meal_plan(all_recipes, digital_pantry, knowledge_bank, iterations, 
     all_recipe_dict = {recipe['name']: recipe for recipe in all_recipes}
 
     # current_plan = random.sample(all_recipes, num_meals)[:]
-    current_plan = random.sample(range(all_recipes), num_meals)[:]
+    current_plan = random.sample(range(len(all_recipes)), num_meals)[:]
     current_shopping_list, current_pantry = generate_shopping_list([all_recipes[i] for i in current_plan], digital_pantry, knowledge_bank)
     current_cost = calculate_cost(digital_pantry, current_pantry, wastage_weight, pantry_change_weight)
 
